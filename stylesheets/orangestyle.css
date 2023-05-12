@@ -1,0 +1,121 @@
+
+
+/* heading */
+.head
+{
+    
+    background-image: url('../img/orangebg1.jpg');
+    position: relative;
+    box-shadow: 2px 2px 50px #a33807;
+}
+/*.head-overlay
+{
+    position: absolute;
+
+    background-color:#0f0f0f99;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}*/
+.heading
+{
+    color:#da9622;
+}
+.heading h1
+ {
+color: #ffa205 ! important;
+}
+.heading  span
+{
+	
+	color: #ffa205 ! important;
+}
+/* menu */
+
+#menu li.my-active 
+{
+    background-color:  #da9622;
+}
+
+#menu li:hover
+{
+	background-color: #da9622 !important; 
+    color: #f0eded;
+}
+
+.title h1 
+{
+   color: #da9622;
+}
+.title h4 
+{
+    color: #da9622;
+}
+@media screen and (max-width: 1200px)
+{
+    #menu .navbar-toggle
+    {
+        background-color:  #da9622;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .logo {
+        color: #da9622 !important;
+    }
+}
+
+/* profile */
+
+.p-1 
+{
+    border-bottom: 2px solid #da9622;
+}
+.resume a 
+{
+    background-color: #da9622;
+
+}
+.resume i 
+{
+    color: #da9622;
+}
+/* skill */
+
+.skills .progress-bar 
+{
+    background-color: #906926;
+}
+/* work */
+.work-overlay a 
+{
+    color: #da9622 ;
+}
+.work-overlay a:hover
+{
+    text-decoration: none;
+    color:#da9622;
+}
+.name
+ {
+    color: #da9622;
+}
+/* footer */
+
+.gotop 
+{
+    background-color: #da9622;
+}
+
+.gotop:hover i
+{
+    color: #da9622;
+
+}
+.gotop:hover
+{
+    background-color:#dbe6efd6;
+}
+
+

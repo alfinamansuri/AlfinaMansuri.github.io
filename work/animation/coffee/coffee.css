@@ -1,0 +1,125 @@
+﻿body
+{
+
+}
+.coffe
+{
+    width:200px;
+    height:200px;
+    margin:0 auto;
+    text-align:center;
+    background-color:#2a326f;
+}
+
+.steem
+{
+    display:inline-block;
+    margin-top:50px;
+    margin-right: 5px;
+}
+
+.coffe i
+{
+    display:block;
+    font-size:100px;    
+    color:#fff;
+
+}
+.steem span
+{
+    display:inline-block;
+    width:10px;
+    height:30px;
+    background-color: #fff;
+    border-radius:10px;
+    margin-right: 5px;
+    opacity: 0.8;
+   
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+
+
+/*  first span */
+.steem span:nth-child(1)
+{
+    animation-name:stem1animation;
+
+}
+
+@keyframes stem1animation {
+   
+    40%
+    {
+        transform:translateY(-30px);
+        opacity:0;
+    }
+
+    41%
+    {
+        transform:translateY(0px);
+        opacity:0;
+    }
+}
+
+
+/* second span */
+
+
+.steem span:nth-child(2)
+{
+    animation-name:stem1animation;
+    animation-delay:1.0s;
+}
+
+
+@keyframes stem1animation {
+   
+    40%
+    {
+        transform:translateY(-30px);
+        opacity:0;
+    }
+
+    41%
+    {
+        transform:translateY(0px);
+        opacity:0;
+    }
+}
+
+
+/* third span */
+
+
+.steem span:nth-child(3)
+{
+    animation-name:stem1animation;
+
+    animation-delay:1.5s;
+}
+
+
+@keyframes stem1animation {
+   
+    40%
+    {
+        transform:translateY(-30px);
+        opacity:0;
+    }
+
+    41%
+    {
+        transform:translateY(0px);
+        opacity:0;
+    }
+}
+
+
+
+
+
+
+

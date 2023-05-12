@@ -1,0 +1,122 @@
+
+
+/* heading */
+.heading h1
+{
+color: #c6c5c5 ! important;
+}
+.heading  span
+{
+	
+	color:#c6c5c5 ! important;
+}
+.head
+{
+    
+    background-image: url('../img/black.jpg');
+    background-repeat: repeat;
+   background-size: cover;
+    position: relative;
+    box-shadow: 2px 2px 50px #c1c1c1;
+}
+/*.head-overlay
+{
+    position: absolute;
+
+    background-color:#1fa58c47;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}*/
+/* menu */
+
+#menu li.my-active 
+{
+    background-color: #636060;
+    color:black;
+}
+
+ #menu li:hover
+ {
+    
+    color:black;
+    background-color:#636060; 
+ }
+.title h1 
+{
+   color: #fff;
+}
+.title h4 
+{
+    color: #fff;
+}
+@media screen and (max-width: 1200px)
+{
+    #menu .navbar-toggle
+    {
+        background-color: #fff;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .logo {
+        color:#fff !important;
+    }
+}
+
+/* profile */
+
+.p-1 
+{
+    border-bottom: 2px solid #fff;
+}
+.resume a 
+{
+    background-color:#636060;
+
+}
+.resume i 
+{
+    color: #fff;
+}
+/* skill */
+.skills .progress {
+   
+    background-color: #fff;
+}
+.skills .progress-bar 
+{
+    background-color: #636060;
+}
+/* work */
+.work-overlay a 
+{
+    color:#fff ;
+}
+.work-overlay a:hover
+{
+    text-decoration: none;
+    color:#fff;
+}
+.name
+ {
+    color:#fff;
+}
+/* footer */
+
+.gotop 
+{
+    background-color: #fff;
+}
+
+.gotop:hover i
+{
+    color:black;
+
+}
+.gotop:hover
+{
+    background-color:#fff;
+}
+

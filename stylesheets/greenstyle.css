@@ -1,0 +1,124 @@
+
+
+/* heading */
+.heading h1
+ {
+color: #6ed91d ! important;
+}
+.heading  span
+{
+	
+	color: #6ed91d ! important;
+}
+.head
+{
+    
+    background-image: url('../img/greenbg1.jpg');
+    position: relative;
+    box-shadow: 2px 2px 50px #65cb35;
+
+}
+/*.head-overlay
+{
+    position: absolute;
+
+    background-color:#0f0f0f99;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}*/
+/* menu */
+
+#menu li.my-active 
+{
+    background-color:  #88c559;
+    color:#7b7777;
+}
+
+
+#menu li:hover
+ {
+    background-color:#88c559;
+    color: #7b7777;
+ }
+.title h1 
+{
+   color:  #88c559;
+}
+.title h4 
+{
+    color:  #88c559;
+}
+@media screen and (max-width: 1200px)
+{
+    #menu .navbar-toggle
+    {
+        background-color:#88c559  ;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .logo {
+        color: #88c559 !important;
+    }
+}
+
+/* profile */
+
+.p-1 
+{
+    border-bottom: 2px solid  #88c559;
+}
+.resume a 
+{
+    background-color:  #88c559;
+    color:#7b7777;
+
+}
+.resume i 
+{
+    color:  #88c559;
+}
+.resume a:hover 
+{
+    color:#7b7777;
+    }
+/* skill */
+
+.skills .progress-bar 
+{
+    background-color:  #527737;
+}
+/* work */
+.work-overlay a 
+{
+    color:#88c559 ;
+}
+.work-overlay a:hover
+{
+    text-decoration: none;
+    color:#a3f069;
+}
+.name
+ {
+    color:#88c559 ;
+}
+
+/* footer */
+
+.gotop 
+{
+    background-color:  #88c559;
+}
+.gotop:hover i
+{
+    color:#88c559;
+
+}
+.gotop:hover
+{
+    background-color:#7b7777;
+}
+
+

@@ -1,0 +1,122 @@
+
+@media (min-width:768px){
+    .navbar-nav{display: flex;align-items: center;justify-content: center;float:none}
+}
+
+
+
+
+@media screen and (max-width:1200px){
+	.heading span { font-size: 70px;}
+	.heading h1 {font-size: 50px;text-align: center;}
+    .heading h2 {text-align: left;font-size: 50px;}
+    #menu #menu-nav {width:85%;margin:0 auto;}
+    .slider-content {margin-top: 0px;}
+     #menu li{padding: 7px 20px;margin-right: 7px;border-radius:20px;transition: 1.8s background-color;}
+     #menu li a {font-size: 16px;}
+    .work a {text-transform: uppercase;padding: 14px;font-size: 14px;}
+ }
+@media screen and (max-width:1000px){
+	#menu #menu-nav {width: 85%;margin:0 auto;}
+   .slider-content {margin-top: 0px;}
+    #menu li{padding: 7px 12px;margin-right: 7px;border-radius:20px;transition: 1.8s background-color;}
+    #menu li a {font-size: 13px;}
+	.title h1{font-size: 25px;}
+	.title h4{font-size: 17px;}
+    .scroll-box{width:99%;}
+}
+
+@media(max-width: 991px){
+    .head{padding: 60px 0px;}
+    .title{padding-bottom: 50px;}
+    .profile,.skills,.work{padding:60px 0;}
+    .work-box{padding-top: 0;}
+    .contact{padding-top: 0;}
+    .work-row .work-col{width: 33.33%;}
+}
+
+@media screen and (max-width:767px){
+    .head{padding: 0px 0px;}
+	.heading span {font-size: 45px;color: #74bff4f7;}
+    #menu ul.nav.navbar-nav li {border-bottom: 1px solid rgba(219, 230, 239, 0.84);box-shadow: none;}
+    #menu li:hover {background-color: rgb(30, 108, 190);color: rgba(219, 230, 239, 0.84);box-shadow: rgba(255, 255, 255, 0.65) 2px 2px 2px;border-radius: 20px;}
+
+#menu ul.nav.navbar-nav li a {text-align: center;}
+.heading h1 {font-size: 40px;text-align: center;}
+	.heading h2 {text-align: center;font-size: 35px;}
+    .resume i {margin-top: 10%;text-align: center;}
+.scroll-box{width:98%;}
+
+.name-control {margin-bottom: 15px;width:100% !important;float:none;}
+.email-control {width:100% !important;float:none;margin-left: 0px; }
+.logo {color: #1e6cbe;font-size: 28px;display: inline-block !important;}
+.slider-content {margin-top: 0px;}
+.work-row .work-col{width: 50%;}
+#menu{padding: 12px 0;}
+.gotop{top: -20px;font-size: 20px;}
+}
+
+@media screen and (max-width:540px){
+	.heading span {font-size: 38px;color: #74bff4f7;}
+.slider-content {margin-top: 0px;}
+.heading h1 {font-size: 30px;text-align: center;}
+.heading h2 {text-align: center;font-size: 30px;}
+.p-1 p {color: #dbe6efd6;font-size: 14px;}
+.p-1 h2 {color: #dbe6efd6;font-size: 18px;}
+.p-2 p {color: #dbe6efd6;font-size: 14px;}
+.p-2 h2 {color: #dbe6efd6;font-size: 18px;}
+.resume a {background-color: #1e6cbe;padding: 7px 10px;font-size: 17px;}
+.heading{ padding: 100px 0px;}
+.profile,.skills,.work,.reference,.contact,{ padding:50px 0px;}
+.footer{padding:60px 0px 30px;}
+.contact-box{width: 100%;}
+.title{padding-bottom:50px;}
+.resume i {margin-bottom: 70px;font-size: 45px;}
+.skills h5 {margin-left: 2px;font-size: 12px;}
+.skills .progress {height: 20px;margin-bottom: 20px;}
+.work a {padding: 14px;font-size: 14px;}
+.skills .progress{width: 100%}
+.work-box1{margin-bottom:30px;}
+.resume i
+{
+    animation-name:download;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation animation-play-state: running;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+/* work */
+.work-row .work-col{width: 100%;padding: 0;}
+.name{font-size: 13px;}
+
+@keyframes download
+{
+    0%
+    {
+        transform:translateY(0px);
+    }
+    25%
+    {
+        transform:translateY(25px);
+    }
+    50% 
+    {         
+     transform: translateY(45px);
+               
+    }
+    75%
+    {
+        transform: translateY(65px);
+    }
+    100% 
+    {
+     transform: translateY(0);
+               
+    }
+
+
+
+
+}
