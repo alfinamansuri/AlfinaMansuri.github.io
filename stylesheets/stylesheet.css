@@ -55,8 +55,7 @@ img
 }
 
 /* head */
-.head
-{
+.head{
     
     background-image: url('../img/bg.jpg');
     font-family:sans-serif;
