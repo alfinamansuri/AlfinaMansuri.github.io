@@ -1,0 +1,113 @@
+
+
+/* heading */
+.heading h1
+ {
+color: #fa07d1 ! important;
+}
+.head
+{
+    
+    background-image: url('../img/pink10.jpg');
+    background-size:cover;
+    position: relative;
+    box-shadow: 2px 2px 50px #fcbcf1;
+}
+.head-overlay
+{
+    position: absolute;
+
+    background-color:#f693e130;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.heading  span
+{
+	
+	color:#fa07d1 ! important;
+}
+/* menu */
+
+#menu li.my-active 
+{
+    background-color: #f774e1;
+}
+#menu li:hover
+ {
+    background-color: #f774e1! important;
+ }
+.title h1 
+{
+   color: #f774e1;
+}
+.title h4 
+{
+    color: #f774e1;
+}
+@media screen and (max-width: 1200px)
+{
+    #menu .navbar-toggle
+    {
+        background-color: #f774e1;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .logo {
+        color:#f774e1 !important;
+    }
+}
+/* profile */
+
+.p-1 
+{
+    border-bottom: 2px solid #f774e1;
+}
+.resume a 
+{
+    background-color: #f774e1;
+
+}
+.resume i 
+{
+    color: #f774e1;
+}
+/* skill */
+
+.skills .progress-bar 
+{
+    background-color:#844d7a;
+}
+/* work */
+.work-overlay a 
+{
+    color: #f774e1;
+}
+.work-overlay a:hover
+{
+    text-decoration: none;
+    color:#f774e1;
+}
+.name
+ {
+    color: #f774e1;
+}
+/* footer */
+
+.gotop 
+{
+    background-color: #f774e1;
+}
+
+.gotop:hover i
+{
+    color:#f774e1;
+
+}
+.gotop:hover
+{
+    background-color:#dbe6efd6;
+}
+

@@ -1,0 +1,246 @@
+﻿body {
+    text-align: center;
+    background-color: #efcc06;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.piano-box {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -50px;
+    animation-name: pianoanimation;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+@keyframes pianoanimation {
+    50% {
+        transform: translateY(50px);
+    }
+}
+
+.piano-box:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.piano-box:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.piano-box:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.piano-box:nth-child(4) {
+    animation-delay: 0.1s;
+}
+
+.piano-box:nth-child(5) {
+    animation-delay: 0.2s;
+}
+
+.piano-box:nth-child(6) {
+    animation-delay: 0.3s;
+}
+
+
+
+
+
+.piano {
+    display: inline-block;
+}
+
+.piano-box .line {
+    display: block;
+    background-color: navy;
+    width: 20px;
+    height: 150px;
+}
+
+.piano-box .round {
+    display: block;
+    background-color: navy;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+/*SkewBox*/
+.skewBox {
+}
+
+    .skewBox span {
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        border: 5px solid rgba(255, 255, 255, 0.66);
+        border-radius: 10px;
+        position: absolute;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-timing-function: linear;
+    }
+
+
+
+
+
+        .skewBox span:nth-child(1) {
+            animation-name: skew1;
+            /*transform:skewX(-60deg) scale(5);*/
+        }
+
+@keyframes skew1 {
+    20% {
+        transform: skewX(-60deg) scale(1.5);
+    }
+
+    21% {
+        transform: skewX(0) scale(1);
+    }
+
+    40% {
+        transform: skewX(-60deg) scale(2);
+    }
+
+    41% {
+        transform: skewX(0) scale(1);
+    }
+
+    60% {
+        transform: skewX(-60deg) scale(3);
+    }
+
+    61% {
+        transform: skewX(0) scale(1);
+    }
+
+    80% {
+        transform: skewX(-60deg) scale(4);
+    }
+
+    81% {
+        transform: skewX(0) scale(1);
+    }
+}
+
+.skewBox span:nth-child(2) {
+    /*transform:skewX(60deg) scale(5);*/
+    animation-name: skew2;
+}
+
+@keyframes skew2 {
+    20% {
+        transform: skewX(60deg) scale(1.5);
+    }
+
+    21% {
+        transform: skewX(0) scale(1);
+    }
+
+    40% {
+        transform: skewX(60deg) scale(2);
+    }
+
+    41% {
+        transform: skewX(0) scale(1);
+    }
+
+    60% {
+        transform: skewX(60deg) scale(3);
+    }
+
+    61% {
+        transform: skewX(0) scale(1);
+    }
+
+    80% {
+        transform: skewX(60deg) scale(4);
+    }
+
+    81% {
+        transform: skewX(0) scale(1);
+    }
+}
+/*Heart Animation*/
+.heart {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    margin: 0 auto;
+    margin-top: 200px;
+    transform: rotate(45deg);
+}
+
+    .heart:after, .heart:before {
+        content: "";
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        background-color: #f00;
+        border-radius: 50%;
+        position: absolute;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-timing-function: linear;
+    }
+
+    .heart:before {
+        left: -100px;
+        animation-name: h1;
+    }
+
+@keyframes h1 {
+    25%
+    {
+        left: -100px;
+
+    }
+    50% {
+        left: 100px;
+    }
+    75%
+    {
+        left: 100px;
+
+    }
+}
+
+.heart:after {
+    top: -100px;
+    right: 0;
+    animation-name: h2;
+}
+
+@keyframes h2 {
+    25% {
+        top: 100px;
+    }
+
+    50% {
+        top: 100px;
+    }
+
+    75% {
+        top: -100px;
+    }
+    
+}
+
+.heart:hover:before {
+    /*left: 100px;*/
+}
+
+/*.heart:hover:after {
+        top: 100px;
+    }*/
