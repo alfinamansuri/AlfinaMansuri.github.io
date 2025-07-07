@@ -1,7 +1,6 @@
 body
 {
     box-shadow: 2px 2px 2px #1fa58c;
-
 }
 .scroll
 {
@@ -12,15 +11,10 @@ img
     width: 100%;
 }
 *
-{
-	margin:0px;
-	padding:0px;
-}
+{margin:0px;	padding:0px;}
 .clear:after
-{
-    content: "";
-    clear:both;
-    display: block;
+{content: "";clear:both;
+display: block;
 }
 .preloder {
             background-image:url(../img/loder.gif);
